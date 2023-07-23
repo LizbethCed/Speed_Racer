@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion </title>
+
+    <!--fontawesome(inons) CDN link-->
+    <script src="https://kit.fontawesome.com/8533c91442.js" crossorigin="anonymous" ></script>
+
+<!-- link para estilos-->
+<link rel="stylesheet" href="css/sesion.css">
+</head>
+<body>
+
+<div class="fromBox">
+    <div class="fromContainer">
+        <div class="topHeader">
+            
+            <h1>Iniciar Sesión</h1>
+        </div>
+    <!--INICIO DEL REGISTRO-->
+    <form method="post"  class="form_contact" action="conexion/iniciarsesion.php">
+        <input type="text" id="nombre" class="inputText" placeholder="Nombre Completo" name="nombre" required>
+        <i class="fa-solid fa-user"></i><br>
+        <input type="password" id="contraseña" class="inputText" placeholder="Contraseña" name="Contraseña" required>
+        <i class="fa-solid fa-lock"></i><br>
+        <input type="submit"  id="submitButton" value="Iniciar"><br>
+        <p>No tengo cuenta <a href="registro.html">Registarme</a></p>
+      </form>
+</body>
+
+</html>

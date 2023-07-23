@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registar</title>
+
+    <!--fontawesome(inons) CDN link-->
+    <script src="https://kit.fontawesome.com/8533c91442.js" crossorigin="anonymous" ></script>
+
+<!-- link para estilos-->
+<link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+
+<div class="fromBox">
+    <div class="fromContainer">
+        <div class="topHeader">
+            <h1>Registrate</h1>
+        </div>
+    <!--INICIO DEL REGISTRO-->
+    <form method="post"  class="form_contact" action="conexion/registar.php">
+        <input type="text" id="nombre" class="inputText" placeholder="Nombre Completo" name="nombre" required>
+        <i class="fa-solid fa-user"></i><br>
+        <input type="number" id="edad" class="inputText" placeholder="Edad" name="edad" required>
+        <i class="fa-solid fa-gift"></i><br>
+        <input type="tel " id="tel_celular" class="inputText" placeholder="Telefono" name="tel_celular" required>
+        <i class="fa-solid fa-phone-volume"></i><br>
+        <input type="email" id="correo_electronico" class="inputText" placeholder="Correo Electronico" name="correo_electronico" required>
+        <i class="fa-solid fa-envelope"></i><br>
+        <input type="text" id="domicilio" class="inputText" placeholder="Domicilio" name="domicilio" required>
+        <i class="fa-solid fa-location-dot"></i><br>
+        <input type="password" id="password" class="inputText" placeholder="password" name="password" required>
+        <i class="fa-solid fa-lock"></i><br>
+        <input type="submit"  id="submitButton" value="Registrar"><br>
+        <p>Ya tengo cuenta <a href="iniciarsesion.html">Iniciar Sesion </a></p>
+      </form>
+</body>
+
+</html>
